@@ -63,8 +63,9 @@ const Contact = () => {
               </div>
             </a>
             <a
-              href="./public/KaliGooderham2025Resume.pdf"
-              download="kgooderham_resume"
+              href={`${import.meta.env.BASE_URL}KaliGooderham2025Resume.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="link-button">
                 <img src="white-link.png" alt="" />
