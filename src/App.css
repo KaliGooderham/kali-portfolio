@@ -1039,6 +1039,7 @@ h6 {
 
   #intro h1 {
     margin-bottom: 0;
+    margin-top: 0;
   }
 
   #intro h2 {
@@ -1051,5 +1052,14 @@ h6 {
   #about {
     /* padding-top: 16rem; */
     height: 70vh;
+  }
+  #intro h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #intro h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
   }
 }
