@@ -1026,6 +1026,15 @@ h6 {
   #about {
     padding-top: 14rem;
   }
+
+  #intro h1 {
+    margin-bottom: 0;
+  }
+
+  #intro h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
 }
 
 @media (max-height: 650px) {
