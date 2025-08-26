@@ -940,6 +940,9 @@ h6 {
 
 /* Mobile phones */
 @media (max-width: 500px) {
+  /* .main-content {
+    width: 70%;
+  } */
   .section-header {
     font-size: 45px;
   }
@@ -975,10 +978,46 @@ h6 {
   }
 
   .skill-grid {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    width: 90%; /* shrink to 90% of viewport */
+    margin: 0 auto; /* center it horizontally */
+    gap: 0;
   }
 
   .project-link-button {
     margin-bottom: 1rem;
   }
+
+  .profile-pic {
+    margin-top: 2rem;
+  }
+
+  .inside-skill {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 360px) {
+  .full-site-width {
+    transform: scale(0.7);
+    margin: 0;
+  }
+
+  .education-node-wrapper {
+    padding: 1rem 2rem 1rem 2rem;
+    transition: 0.2s ease-in-out;
+  }
+
+  .main-content-wrapper {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* .arrow-divider {
+    width: 1rem;
+  } */
+}
+
+* {
+  outline: 1px solid red;
 }

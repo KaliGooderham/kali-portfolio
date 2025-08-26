@@ -1,4 +1,3 @@
-import React from "react";
 import ExperienceNode from "./ExperienceNode";
 import ArrowDivider from "./ArrowDivider";
 const Experience = () => {

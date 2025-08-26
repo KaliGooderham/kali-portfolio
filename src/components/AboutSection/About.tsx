@@ -9,7 +9,7 @@ const About = () => {
   const refName = useRef(null);
   const refRole = useRef(null);
   const refDegree = useRef(null);
-  const refArrow = useRef(null);
+  // const refArrow = useRef(null);
 
   const picVisible = useIntersection(refPic, { threshold: 0.2 });
   const nameVisible = useIntersection(refName, { threshold: 0.2 });
@@ -17,9 +17,9 @@ const About = () => {
   const degreeVisible = useIntersection(refDegree, {
     threshold: 0.2,
   });
-  const arrowVisible = useIntersection(refArrow, {
-    threshold: 0.2,
-  });
+  // const arrowVisible = useIntersection(refArrow, {
+  //   threshold: 0.2,
+  // });
   return (
     <div>
       <div id="about">

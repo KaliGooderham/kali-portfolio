@@ -1,5 +1,3 @@
-import React from "react";
-
 const Copyright = () => {
   return (
     <div id="copyright" className="center-text">

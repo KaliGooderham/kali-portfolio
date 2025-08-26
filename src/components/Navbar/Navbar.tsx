@@ -17,6 +17,7 @@ const Navbar = () => {
     } else {
       setScrolled(false);
     }
+    console.log({ scrolled });
   };
 
   useEffect(() => {

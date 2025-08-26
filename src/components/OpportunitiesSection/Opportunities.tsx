@@ -1,4 +1,3 @@
-import React from "react";
 import OpportunitiesNode from "./OpportunitiesNode";
 
 const Opportunities = () => {

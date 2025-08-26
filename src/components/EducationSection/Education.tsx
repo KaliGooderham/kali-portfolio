@@ -1,4 +1,3 @@
-import React from "react";
 import EducationNode from "./EducationNode";
 import ArrowDivider from "../ExperienceSection/ArrowDivider";
 
