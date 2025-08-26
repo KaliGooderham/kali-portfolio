@@ -24,13 +24,17 @@ const EducationNode = ({
           <h3 className="lighter accent-text-color bold-font">{school_name}</h3>
           <p>Graduated {dates}</p>
           <p>GPA: {gpa}</p>
-          <p>
-            {/* <u>Favorite Classes</u> */}
-            Favorite Classes
-          </p>
-          {classes.map((item: string) => (
-            <li className="experience-list">{item}</li>
-          ))}
+          <div id="fav-classes-wrapper">
+            <span id="fav-classes">
+              <p>
+                <u>Favorite Classes</u>
+                {/* Favorite Classes */}
+              </p>
+              {classes.map((item: string) => (
+                <li className="experience-list">{item}</li>
+              ))}
+            </span>
+          </div>
         </div>
         <div className="education-right">
           <img

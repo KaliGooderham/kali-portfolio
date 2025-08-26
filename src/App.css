@@ -698,6 +698,16 @@ h6 {
   width: 50%;
 }
 
+#fav-classes li {
+  text-align: left;
+}
+
+#fav-classes-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* EXPERIENCE SECTION */
 
 .experience-list {
@@ -1039,6 +1049,7 @@ h6 {
 
 @media (max-height: 650px) {
   #about {
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    height: 70vh;
   }
 }
