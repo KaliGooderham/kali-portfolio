@@ -22,6 +22,8 @@ In this command, `portfolio` is the image ID (this could be changed to anything)
 
 This web application uses Vite for development, and port 5173 is Vite's default port.
 
+Currently, even with volume mounting the `src` folder into the container, Docker does not detect changes made to code automatically. This means that making changes in your IDE/Editor to the `src` file, and expecting them to reflect in your locally-hosted site if running through the container, will not happen.
+
 ## Jenkins Instructions to Trigger on Push
 
 - Install ngrok via terminal
