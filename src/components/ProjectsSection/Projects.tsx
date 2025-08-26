@@ -48,7 +48,7 @@ const Projects = () => {
     It was super fun to experiment with CSS and get inspiration from other portfoliios. Included practice
     with containerization and CI/CD.`,
     image1: "portfolio-diagram.png",
-    github: "https://github.com/KaliGooderham/Portfolio",
+    github: "https://github.com/KaliGooderham/kali-portfolio",
   };
   return (
     <div id="projects" className="section">
