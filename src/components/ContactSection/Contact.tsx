@@ -41,35 +41,36 @@ const Contact = () => {
             }`}
             style={{ animationDelay: "1s" }}
           >
-            <div className="link-button">
-              <img src="white-mail.png" alt="" />
-              <a href="mailto:kaligooderham@gmail.com">Email</a>
-            </div>
-            <div className="link-button">
-              <img src="white-github.png" alt="" />
-              <a href="https://github.com/KaliGooderham" target="_blank">
+            <a href="mailto:kaligooderham@gmail.com">
+              <div className="link-button">
+                <img src="white-mail.png" alt="" />
+                Email
+              </div>
+            </a>
+            <a href="https://github.com/KaliGooderham" target="_blank">
+              <div className="link-button">
+                <img src="white-github.png" alt="" />
                 GitHub
-              </a>
-            </div>
-
-            <div className="link-button">
-              <img src="white-linkedin.png" alt="" />
-              <a
-                href="https://www.linkedin.com/in/kali-gooderham/"
-                target="_blank"
-              >
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kali-gooderham/"
+              target="_blank"
+            >
+              <div className="link-button">
+                <img src="white-linkedin.png" alt="" />
                 LinkedIn
-              </a>
-            </div>
-            <div className="link-button">
-              <img src="white-link.png" alt="" />
-              <a
-                href="./public/KaliGooderham2025Resume.pdf"
-                download="kgooderham_resume"
-              >
+              </div>
+            </a>
+            <a
+              href="./public/KaliGooderham2025Resume.pdf"
+              download="kgooderham_resume"
+            >
+              <div className="link-button">
+                <img src="white-link.png" alt="" />
                 Resume
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>

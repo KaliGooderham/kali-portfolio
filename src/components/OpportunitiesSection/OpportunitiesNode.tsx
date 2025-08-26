@@ -34,17 +34,16 @@ const OpportunitiesNode = () => {
           behind going to community college, the benefits, and how it has set me
           up for success in the job market and my personal life.
         </p>
-        <div className="">
-          <div className="link-button">
-            <img src="white-link.png" className="tech-icon" />
-            <a
-              href="https://www.cod.edu/about/stories/students/gooderham.html"
-              target="_blank"
-              className="github-button"
-            >
+        <div className="personal-links-wrapper article-link">
+          <a
+            href="https://www.cod.edu/about/stories/students/gooderham.html"
+            target="_blank"
+          >
+            <div className="link-button">
+              <img src="white-link.png" alt="" />
               Article
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>

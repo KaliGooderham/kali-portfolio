@@ -39,28 +39,28 @@ const ProjectNode = ({
         <p>{description}</p>
         <div title="links" className="project-link-buttons">
           {demo && (
-            <div className="project-link-button">
-              <img src="youtube.png" className="tech-icon" />
-              <a href={demo} target="_blank" className="demo-button">
+            <a href={demo} target="_blank" className="demo-button">
+              <div className="project-link-button">
+                <img src="youtube.png" className="tech-icon" />
                 Demo
-              </a>
-            </div>
+              </div>
+            </a>
           )}
           {github && (
-            <div className="project-link-button">
-              <img src="white-github.png" className="tech-icon" />
-              <a href={github} target="_blank" className="github-button">
+            <a href={github} target="_blank" className="github-button">
+              <div className="project-link-button">
+                <img src="white-github.png" className="tech-icon" />
                 GitHub
-              </a>
-            </div>
+              </div>
+            </a>
           )}
           {live && (
-            <div className="project-link-button">
-              <img src="external-link.png" className="tech-icon" />
-              <a href="www.site.com" target="_blank" className="live-button">
+            <a href="www.site.com" target="_blank" className="live-button">
+              <div className="project-link-button">
+                <img src="external-link.png" className="tech-icon" />
                 Live
-              </a>
-            </div>
+              </div>
+            </a>
           )}
         </div>
       </div>

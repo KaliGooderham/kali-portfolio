@@ -30,10 +30,10 @@ const PersonalInfo = ({ activeOverlay, setActiveOverlay }: Props) => {
   const heading_visible = useIntersection(text_ref, {
     threshold: 0.2,
   });
-  const pictures_ref = useRef(null);
-  const pictures_visible = useIntersection(text_ref, {
-    threshold: 0.2,
-  });
+  // const pictures_ref = useRef(null);
+  // const pictures_visible = useIntersection(text_ref, {
+  //   threshold: 0.2,
+  // });
   return (
     <div id="overlay">
       <div className="overlay-content-wrapper">
