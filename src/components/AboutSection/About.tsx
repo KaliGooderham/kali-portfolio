@@ -11,16 +11,14 @@ const About = () => {
   const refDegree = useRef(null);
   const refArrow = useRef(null);
 
-  const picVisible = useIntersection(refPic, { threshold: 0.2, delay: 0 });
-  const nameVisible = useIntersection(refName, { threshold: 0.2, delay: 100 });
-  const roleVisible = useIntersection(refRole, { threshold: 0.2, delay: 200 });
+  const picVisible = useIntersection(refPic, { threshold: 0.2 });
+  const nameVisible = useIntersection(refName, { threshold: 0.2 });
+  const roleVisible = useIntersection(refRole, { threshold: 0.2 });
   const degreeVisible = useIntersection(refDegree, {
     threshold: 0.2,
-    delay: 300,
   });
   const arrowVisible = useIntersection(refArrow, {
     threshold: 0.2,
-    delay: 200,
   });
   return (
     <div>

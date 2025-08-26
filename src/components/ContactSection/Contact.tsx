@@ -6,17 +6,14 @@ const Contact = () => {
   const heading_ref = useRef(null);
   const heading_visible = useIntersection(heading_ref, {
     threshold: 0.2,
-    delay: 0,
   });
   const ref_p = useRef(null);
   const p_visible = useIntersection(heading_ref, {
     threshold: 0.2,
-    delay: 0,
   });
   const buttons_ref = useRef(null);
   const buttons_visible = useIntersection(heading_ref, {
     threshold: 0.2,
-    delay: 0,
   });
   return (
     <div id="contact-wrapper">

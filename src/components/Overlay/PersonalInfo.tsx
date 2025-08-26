@@ -25,17 +25,14 @@ const PersonalInfo = ({ activeOverlay, setActiveOverlay }: Props) => {
   const text_ref = useRef(null);
   const text_visible = useIntersection(text_ref, {
     threshold: 0.2,
-    delay: 0,
   });
   const heading_ref = useRef(null);
   const heading_visible = useIntersection(text_ref, {
     threshold: 0.2,
-    delay: 0,
   });
   const pictures_ref = useRef(null);
   const pictures_visible = useIntersection(text_ref, {
     threshold: 0.2,
-    delay: 0,
   });
   return (
     <div id="overlay">
