@@ -87,13 +87,14 @@ const PersonalInfo = ({ activeOverlay, setActiveOverlay }: Props) => {
               </div>
             </div>
 
-            <div
+            {/* <div
               ref={pictures_ref}
               className={`fade-slide overlay-images ${
                 pictures_visible ? "visible" : ""
               }`}
               style={{ animationDelay: "2s" }}
-            >
+            > */}
+            <div className="overlay-images">
               <img src="PersonalInfo/gym-pic.jpg" alt="" />
               <img src="PersonalInfo/gem-lake.jpeg" alt="" />
               <img src="PersonalInfo/r6.jpeg" alt="" />

@@ -1062,4 +1062,9 @@ h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
   }
+
+  .overlay-images {
+    column-count: 1;
+    column-gap: 0.5rem;
+  }
 }
