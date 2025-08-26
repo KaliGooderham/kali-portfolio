@@ -1021,3 +1021,15 @@ h6 {
     width: 1rem;
   } */
 }
+
+@media (max-height: 900px) {
+  #about {
+    padding-top: 14rem;
+  }
+}
+
+@media (max-height: 650px) {
+  #about {
+    padding-top: 18rem;
+  }
+}
