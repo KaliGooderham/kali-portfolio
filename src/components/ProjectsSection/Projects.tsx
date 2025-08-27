@@ -45,7 +45,7 @@ const Projects = () => {
     // madewith: ["react.png", "typescript.png", "docker.png", "jenkins.png"],
     madewith: ["react.png", "typescript.png", "docker.png", "jenkins.png"],
     description: `A web-based portfolio to showcase projects, education, and experience. 
-    It was super fun to experiment with CSS and get inspiration from other portfoliios. Included practice
+    It was super fun to experiment with CSS and get inspiration from other portfolios. Included practice
     with containerization and CI/CD.`,
     image1: "portfolio-diagram.png",
     github: "https://github.com/KaliGooderham/kali-portfolio",
