@@ -9,6 +9,7 @@ const Skills = () => {
 
         <Skill skill_image="jenkins.png" skill_name="Jenkins" />
         <Skill skill_image="docker.png" skill_name="Docker" />
+        <Skill skill_image="k8s.png" skill_name="Kubernetes" />
         <Skill skill_image="aws.png" skill_name="AWS(S3)" />
         <Skill skill_image="html.png" skill_name="HTML" />
         <Skill skill_image="css.png" skill_name="CSS" />
